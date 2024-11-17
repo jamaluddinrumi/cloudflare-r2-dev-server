@@ -2,7 +2,7 @@
   "name": "cloudflare-r2-dev-server",
   "scripts": {
     "start": "bun run src/index.ts",
-    "proxy": "local-ssl-proxy --key ../../127.0.0.1+7-key.pem --cert ../../127.0.0.1+7.pem --source 5353 --target 4545"
+    "proxy": "local-ssl-proxy --key ../../localhost+1-key.pem --cert ../../fullchain.pem --source 5454 --target 4646"
   },
   "dependencies": {
     "hono": "^4.5.10"
